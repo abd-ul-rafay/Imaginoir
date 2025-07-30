@@ -1,14 +1,14 @@
-# 🛠 Imaginoir Server
+# Imaginoir Server
 
 Backend server for Imaginoir, built with **Express**, **MongoDB**, and **Stripe**. Handles authentication, image processing, payments, and more.
 
-## 🔌 API Routes Overview
+## API Routes Overview
 
 All endpoints are prefixed with `/api/v1`
 
 ---
 
-### 🧾 Auth Routes (`/auth`)
+### Auth Routes (`/auth`)
 
 | Method | Path        | Description         |
 |--------|-------------|---------------------|
@@ -18,7 +18,7 @@ All endpoints are prefixed with `/api/v1`
 
 ---
 
-### 👤 User Routes (`/users`) (Requires Auth)
+### User Routes (`/users`) (Requires Auth)
 
 | Method | Path     | Description          |
 |--------|----------|----------------------|
@@ -26,7 +26,7 @@ All endpoints are prefixed with `/api/v1`
 
 ---
 
-### 🖼️ Image Routes (`/images`) (Requires Auth)
+### Image Routes (`/images`) (Requires Auth)
 
 | Method | Path       | Description                   |
 |--------|------------|-------------------------------|
@@ -38,7 +38,7 @@ All endpoints are prefixed with `/api/v1`
 
 ---
 
-### 💳 Payment Routes (`/payment`) (Requires Auth)
+### Payment Routes (`/payment`) (Requires Auth)
 
 | Method | Path         | Description                      |
 |--------|--------------|----------------------------------|
@@ -46,7 +46,7 @@ All endpoints are prefixed with `/api/v1`
 
 ---
 
-### 📡 Webhook Routes (`/webhooks`)
+### Webhook Routes (`/webhooks`)
 
 | Method | Path          | Description                       |
 |--------|---------------|-----------------------------------|
@@ -54,9 +54,9 @@ All endpoints are prefixed with `/api/v1`
 
 ---
 
-## 🧱 Stack
+## Stack
 
-- Express 5
+- Express (Node)
 - MongoDB & Mongoose
 - Stripe API & Webhooks
 - JWT Authentication

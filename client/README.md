@@ -1,15 +1,14 @@
-# 🌟 Imaginoir Client
+# Imaginoir Client
 
 Frontend of the Imaginoir AI Image Generator App built with **React**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.
 
 ## 🔧 Stack
 
-- React 19 + TypeScript
-- Tailwind CSS + shadcn/ui + Radix UI
+- React + TypeScript
+- Tailwind CSS + Shadcn/ui + Radix UI
 - React Router DOM
 - Context API for global state (user, auth, credits, etc.)
-- Google OAuth with `@react-oauth/google`
-- Toasts with `sonner`
+- Google OAuth with @react-oauth/google
 
 ## 🧭 Pages
 
