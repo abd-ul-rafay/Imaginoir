@@ -65,7 +65,7 @@ export function AuthForm({
     <div className={className} {...props}>
       <Card className="overflow-hidden">
         <CardContent>
-          <form noValidate onSubmit={onFormSubmit} className="px-6 md:px-8 py-4">
+          <form noValidate onSubmit={onFormSubmit} className="sm:px-6 md:px-8 py-4">
             <div className="flex flex-col gap-4">
               <div className="flex flex-col items-center text-center">
                 <h1 className="text-2xl font-bold">

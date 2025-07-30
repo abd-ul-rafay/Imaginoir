@@ -85,7 +85,7 @@ const AuthPage = () => {
         handleFormSubmit={handleFormSubmit}
         onGoogleSuccess={(handleGoogleSuccess)}
         onGoogleError={handleGoogleError}
-        className="sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3 m-auto font-sans" />
+        className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3 m-auto font-sans" />
     </div>
   )
 }

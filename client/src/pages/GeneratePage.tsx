@@ -55,7 +55,7 @@ const GeneratePage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center md:5/6 lg:w-4/5 m-auto">
-      <h2 className="text-4xl font-semibold dark:font-normal text-center gradient-text w-full">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold dark:font-normal text-center gradient-text w-full">
         Unleash Your Creativity
       </h2>
       <p className="text-lg mb-2">Credit Available: {user.credits}</p>

@@ -17,7 +17,7 @@ const HomePage = () => {
         Describe anything you can imagine — from surreal scenes to realistic visuals.<br />
         Let our AI turn your words into stunning artwork in seconds.
       </p>
-      <div className="w-2/3 md:w-auto flex flex-col md:flex-row items-center justify-center gap-6 mb-10">
+      <div className="w-full sm:w-2/3 md:w-auto flex flex-col md:flex-row items-center justify-center gap-6 mb-10">
         <GlobalSvgDefs />
         <Button variant="outline" onClick={() => navigate(user ? '/generate' : '/auth')} className="w-full flex item-center justify-between gap-4 md:w-auto px-10 py-6 font-semibold font-sans text-lg">
           {user ? 'Generate AI Images' : 'Get Started Now'}
