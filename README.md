@@ -1,4 +1,4 @@
-# 🎨 Imaginoir - AI Image Generator App
+# ✨ Imaginoir - AI Image Generator App
 
 Imaginoir is a full-stack AI image generation web application built with the **MERN stack** (MongoDB, Express, React, Node.js), enhanced with **TypeScript**, **Tailwind CSS**, **Shadcn/ui**, and powered by **Cloudinary**, **ClipDrop API**, and **Stripe** for payments.
 
