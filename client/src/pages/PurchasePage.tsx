@@ -3,14 +3,12 @@ import OverlayLoader from "@/components/OverlayLoader"
 import PlanCard from "@/components/PlanCard"
 import { useUserContext } from "@/context/UserContext"
 import { plans } from "@/lib/consts"
-import { useEffect, useState } from "react"
-import { useSearchParams } from "react-router-dom"
+import { useState } from "react"
 import { toast } from "sonner"
 
 const PurchasePage = () => {
   const { user } = useUserContext()
   const [isLoading, setIsLoading] = useState(false)
-  const [searchParams] = useSearchParams()
 
   const handlePlanClick = async (planPriceId: string) => {
     setIsLoading(true)
@@ -24,16 +22,6 @@ const PurchasePage = () => {
       setIsLoading(false)
     }
   }
-
-  useEffect(() => {
-    const status = searchParams.get("status")
-
-    if (status === "success") {
-      toast.success("Payment successful! Credits added.")
-    } else if (status === "cancel") {
-      toast.warning("Payment was cancelled.")
-    }
-  }, [searchParams])
 
   return (
     <div className="flex flex-col items-center justify-center md:5/6 lg:w-4/5 m-auto">

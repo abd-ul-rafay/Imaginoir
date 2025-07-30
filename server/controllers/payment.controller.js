@@ -25,8 +25,8 @@ export const createCheckoutSession = asyncHandler(async (req, res) => {
             },
             quantity: 1,
         }],
-        success_url: `${process.env.CLIENT_URL}/purchase?status=success`,
-        cancel_url: `${process.env.CLIENT_URL}/purchase?status=cancel`,
+        success_url: `${process.env.CLIENT_URL}/?status=success`,
+        cancel_url: `${process.env.CLIENT_URL}/?status=cancel`,
         metadata: {
             userId,
             priceId,
