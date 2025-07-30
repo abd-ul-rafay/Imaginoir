@@ -26,21 +26,7 @@ Users can register or sign in (including with Google), generate AI images via pr
 - **Backend**: Express, MongoDB, Mongoose, Stripe, Cloudinary, JWT Auth, Google Auth
 - **API**: ClipDrop API for AI image generation
 - **Payments**: Stripe with Webhooks
-- **Others**: sonner for toasts, file-saver, jwt-decode, and more
-
----
-
-## App Routes
-
-| Path              | Description                       |
-|-------------------|-----------------------------------|
-| `/`               | Home Page                         |
-| `/auth`           | Login / Register                  |
-| `/profile`        | View user profile & images        |
-| `/community`      | View community shared images      |
-| `/generate`       | Generate an image via prompt      |
-| `/purchase`       | Buy credit packs using Stripe     |
-| `*`               | Not Found                         |
+- **Others**: toasts, file-saver, jwt-decode, and more
 
 ---
 
